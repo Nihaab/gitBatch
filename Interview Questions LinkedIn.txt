@@ -1,0 +1,237 @@
+https://www.linkedin.com/in/sanket-popat-patil/
+
+
+1. Can you explain the internal working of HashMap in Java?
+2. How can you convert a HashMap into an ArrayList?
+3. How can you use a custom class as a key in a HashMap?
+4. If a class has four variables (two private and two public) with generated getters and setters, does it still achieve encapsulation? Why or why not?
+5. Can you describe a deadlock situation in Java? How can it be avoided?
+6. How is exception handling managed in Spring Boot applications?
+7. In Spring Boot, if you don't want to use the embedded server (like Tomcat) and prefer JBoss, how can you configure it?
+8. What is the difference between the @Bean and @Component annotations in Spring?
+9. What is the purpose of the "spring-boot-starter-parent" dependency in Spring Boot?
+10. How do you create REST APIs in Spring Boot? How do you secure these REST endpoints?
+11. What are @RestController and @Controller annotations in Spring? In which scenarios would you use each of them?
+12. What are the best practices or rules for designing REST APIs?
+13. Are you working with microservices? If yes, how do these microservices communicate with each other?
+14. How have you implemented "RestTemplate" for communication between microservices in your project?
+15. Can you explain the common design patterns used in microservices architecture?
+16. What is the circuit breaker design pattern? How did you implement it in your project?
+17. Do you have experience in writing test cases? Which testing frameworks do you use?
+18. What is the purpose of the @Mock and @InjectMocks annotations in unit testing?
+
+
+1️⃣ How can you design a thread-safe Singleton pattern in Java? Explain with an example.
+ 2️⃣ When a class implements multiple interfaces with conflicting default methods, how do you resolve the method conflicts? Provide an example.
+ 3️⃣ What is ExecutorService in the Java Executor Framework? How does it enhance thread management?
+ 4️⃣ What are the key differences between the synchronized keyword and ReentrantLock in Java? In which scenarios should you prefer one over the other?
+ 5️⃣ What distinguishes ApplicationContext from BeanFactory in Spring? Describe scenarios where each is more suitable.
+ 6️⃣ How do you handle bean conflicts in a Spring application? What approaches can you use?
+ 7️⃣ When designing a secure REST API using Spring Boot, what essential security measures would you implement? Discuss best practices.
+ 8️⃣ What are your strategies for optimizing the performance of a Spring Boot application? Provide some practical techniques you have used.
+ 9️⃣ What are the core components of a microservices architecture? How do they interact with each other?
+ 🔟 How does service discovery work in a microservices architecture? Explain with examples of service discovery mechanisms.
+ 1️⃣1️⃣ Can you describe a challenging issue you encountered while working with microservices? How did you resolve it?
+ 1️⃣2️⃣ One of your microservices is experiencing a traffic surge, causing performance degradation. What would be your approach to scale this service effectively? What key factors would influence your scaling strategy?
+ 1️⃣3️⃣ How do you ensure data consistency in distributed transactions within a microservices architecture? Explain your approach with examples.
+ 1️⃣4️⃣ What are triggers in a database? Why are they used? Provide an example.
+ 1️⃣5️⃣ Can you demonstrate how to write a parameterized stored procedure in SQL Server?
+ 1️⃣6️⃣ What is SQL Injection? What are the best practices to prevent SQL Injection in a Java Spring Boot application?
+ 1️⃣7️⃣ Can you explain Lazy Loading and Eager Loading in Hibernate? When would you use each approach?
+ 1️⃣8️⃣ What is the N+1 SELECT problem in Hibernate? How can you identify and prevent it in your application?
+
+
+
+==================================================================================================================
+
+
+My Interview Experience with Persistent Systems – Programmer (Dev) 5.2
+
+A few weeks ago, I interviewed for the Persistent Systems – Programmer (Dev) 5.2 role, and I’m sharing my complete experience to help others preparing for similar opportunities.
+
+There were two technical rounds, both focused heavily on Core Java, Collections, Streams, Concurrency, Spring Boot, and JPA.
+
+🧩 ROUND 1 – Core Java, Collections, Streams, Concurrency
+Java & JVM
+
+1. Can you name a few new services/features introduced in Java 24?
+2. How does Java memory management work internally?
+
+OOP & Language Features
+3. Have you heard about co-variant return types?
+4. HashMap & Concurrency
+5. What is the main purpose of HashMap?
+6. What is the contract between hashCode() and equals()?
+7. What enhancement was made in HashMap after Java 1.8?
+8. After which point does HashMap convert a bucket into a Red-Black Tree?
+
+ConcurrentHashMap
+9. Why do we need ConcurrentHashMap if HashMap already exists?
+10. How does locking work in ConcurrentHashMap?
+11. What is the default bucket size?
+12. With bucket size 16, how many read/write operations can happen simultaneously?
+
+Java Streams – Coding Questions
+13. Sort a list of Employees by highest salary (fields: id, name, dept, salary).
+14. Given "This is Java Programming", reverse each word using Streams.
+15. From an array, fetch the first 3 odd numbers using Streams.
+16. Fetch only the second odd number using Streams.
+
+Agile
+17. Do you work in Agile? What’s your sprint duration?
+
+💡 Takeaway
+This interview deeply tested my understanding of Java internals, Streams, concurrent data structures, Spring Boot fundamentals, and JPA mappings.
+ It gave me a clear idea of where to improve—especially around concurrency, async execution, and repository-layer design.
+
+I’m grateful for the opportunity and appreciate the time and effort the interviewers invested in the process.
+
+
+
+
+===============================================================================================================
+
+
+ My Interview Experience with Persistent Systems – Programmer (Dev) 5.2
+
+A few weeks ago, I interviewed for the Persistent Systems – Programmer (Dev) 5.2 role, and I’m sharing my complete experience to help others preparing for similar opportunities.
+
+There were two technical rounds, both focused heavily on Core Java, Collections, Streams, Concurrency, Spring Boot, and JPA.
+
+🧩 ROUND 2 – Streams, Spring Boot, JPA, Async, Repository
+
+Streams & Data Extraction
+1. Using Streams, find all employees with age > 50 in:
+ Organization → Departments → Employees.
+
+Spring Boot & Exception Handling
+2. What are the standard ways of handling exceptions in Spring Boot?
+3. What is Spring MVC and how is it different from Spring Boot?
+4. Can we use Spring MVC without Spring Boot?
+
+Repository & Persistence Layer
+5. What is a Repository in Spring? Why do we use it?
+
+Async Programming (CompletableFuture)
+6. Explain a method using:
+CompletableFuture
+executorService
+LoggingContext copy
+async cleanup job
+They asked to explain thread context transfer, async execution, and cleanup flow.
+
+JPA & Hibernate
+7. A full JPA entity was shown (with: @Entity, @Id, @GeneratedValue, @ManyToOne, caching strategy, copy constructor, scriptBindingName uniqueness).
+ They asked to explain:
+each annotation
+lazy vs eager
+mapping structure
+copy constructor logic
+caching strategy
+
+
+💡 Takeaway
+This interview deeply tested my understanding of Java internals, Streams, concurrent data structures, Spring Boot fundamentals, and JPA mappings.
+ It gave me a clear idea of where to improve—especially around concurrency, async execution, and repository-layer design.
+
+I’m grateful for the opportunity and appreciate the time and effort the interviewers invested in the process.
+
+
+===============================================================================================================
+
+
+If you’re preparing for Java backend interviews, don’t skip these Spring topics.
+
+🟢 𝗕𝗔𝗦𝗜𝗖
+Spring Core
+What is Spring Framework and why is it used?
+IoC vs DI
+Constructor vs Setter Injection
+Spring Beans & Bean lifecycle
+Bean scopes
+@Component vs @Service vs @Repository vs @Controller
+Autowiring
+@Qualifier and when to use it
+@Primary and how it resolves bean conflicts
+@Lazy and lazy initialization
+ApplicationContext vs BeanFactory
+@Configuration and @Bean
+What Spring Boot solves
+Starter dependencies
+Auto-configuration
+application.properties vs application.yml
+@SpringBootApplication
+
+🟡 𝗜𝗡𝗧𝗘𝗥𝗠𝗘𝗗𝗜𝗔𝗧𝗘
+REST APIs
+@RestController vs @Controller
+ResponseEntity
+Exception handling using @ControllerAdvice
+Validation with @Valid
+RequestParam, PathVariable, RequestBody
+What Spring Data JPA provides
+CrudRepository vs JpaRepository
+Lazy vs Eager loading
+JPA entity lifecycle
+N+1 select problem
+Entity relationships
+save() vs saveAndFlush()
+
+🔥 𝗧𝗥𝗔𝗡𝗦𝗔𝗖𝗧𝗜𝗢𝗡𝗦 (@𝗧𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝗮𝗹)
+Why transactions are needed
+What @Transactional actually does
+Checked vs unchecked exceptions
+Rollback & no-rollback rules
+Propagation levels
+Isolation levels
+Common pitfalls (private methods, self-invocation, async, constructors)
+
+🔴 𝗔𝗗𝗩𝗔𝗡𝗖𝗘𝗗
+How auto-configuration works internally
+Conditional annotations
+Spring Boot Actuator
+Deadlock in Java & how it can appear in Spring apps
+Spring Cloud essentials (Eureka, Feign, Config, Gateway)
+Circuit breakers with Resilience4j / Hystrix
+
+👉 If this helped you, a Like or Comment would mean a lot!
+
+
+
+
+=================================================================================================================
+
+Interviewer: "You have 2 minutes. Please brief 𝗛𝗮𝘀𝗵𝗠𝗮𝗽 𝘃𝘀 𝗛𝗮𝘀𝗵𝗧𝗮𝗯𝗹𝗲 𝘃𝘀 𝗖𝗼𝗻𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗛𝗮𝘀𝗵𝗠𝗮𝗽".
+
+My answer: Challenge accepted, Let's go!
+
+Choosing the right Map implementation in Java is crucial for performance and thread safety. 
+
+Below is a detailed comparison:
+🔹 𝗛𝗮𝘀𝗵𝗧𝗮𝗯𝗹𝗲
+𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱: Yes, all methods are synchronized (thread-safe but slow).
+𝗡𝘂𝗹𝗹 𝗞𝗲𝘆𝘀/𝗩𝗮𝗹𝘂𝗲𝘀: Does not allow null keys or values.
+𝗟𝗲𝗴𝗮𝗰𝘆 𝗖𝗹𝗮𝘀𝘀: Introduced in JDK 1.0, later replaced by better alternatives.
+𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲: Slower due to method-level synchronization.
+𝗖𝗼𝗹𝗹𝗶𝘀𝗶𝗼𝗻 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴: Uses a linked list to store multiple entries in the same bucket.
+
+🔹 𝗛𝗮𝘀𝗵𝗠𝗮𝗽
+𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱: No, not thread-safe.
+𝗡𝘂𝗹𝗹 𝗞𝗲𝘆𝘀/𝗩𝗮𝗹𝘂𝗲𝘀: Allows one null key and multiple null values.
+𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲: Faster than HashTable as it is not synchronized.
+𝗖𝗼𝗹𝗹𝗶𝘀𝗶𝗼𝗻 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴: Uses a linked list (before Java 8) and a balanced tree (after Java 8 for large buckets).
+𝗨𝘀𝗲 𝗖𝗮𝘀𝗲: Best for single-threaded applications.
+
+🔹 𝗖𝗼𝗻𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗛𝗮𝘀𝗵𝗠𝗮𝗽
+𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱: Yes, but more efficient than HashTable.
+𝗡𝘂𝗹𝗹 𝗞𝗲𝘆𝘀/𝗩𝗮𝗹𝘂𝗲𝘀: Does not allow null keys or values.
+𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲: Faster than HashTable due to fine-grained synchronization.
+𝗧𝗵𝗿𝗲𝗮𝗱-𝗦𝗮𝗳𝗲𝘁𝘆: Uses segment-based locking (before Java 8) and CAS (Compare-And-Swap) operations (after Java 8) for concurrent reads and writes.
+𝗖𝗼𝗹𝗹𝗶𝘀𝗶𝗼𝗻 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴: Uses a linked list (before Java 8) and a balanced tree (after Java 8 for large buckets).
+𝗨𝘀𝗲 𝗖𝗮𝘀𝗲: Best for multi-threaded applications where concurrent access is required.
+
+🔹 𝗪𝗵𝗲𝗻 𝘁𝗼 𝗖𝗵𝗼𝗼𝘀𝗲?
+For single-threaded applications → Use HashMap (best performance).
+For multi-threaded applications → Use ConcurrentHashMap instead of HashTable (better concurrency, avoids performance bottlenecks).
+
+What are your thoughts? Which one do you use in your projects? Do share your thoughts, lets share learning and grow together.
